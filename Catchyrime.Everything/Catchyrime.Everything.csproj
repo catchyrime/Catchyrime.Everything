@@ -41,6 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constant.cs" />
+    <Compile Include="Developer\_Attributes\ParameterDescriptor.cs" />
+    <Compile Include="Developer\_Validations\Comparables.cs" />
+    <Compile Include="Developer\_Validations\Objects.cs" />
+    <Compile Include="Developer\_Validations\Validations.cs" />
+    <Compile Include="DSAA\DSArray.cs" />
+    <Compile Include="DSAA\_Base\SBTree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
